@@ -12,7 +12,7 @@ jobs:
   generate:
     permissions: 
       contents: write
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Generate SVG
         uses: Platane/snk/svg-only@v3
